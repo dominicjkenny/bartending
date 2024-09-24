@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #1E1E1E;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #cd960c;
+  font-family: 'Playfair Display', serif;
+}
+
+ul, p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #A67C52;
+}
+
+.call-button {
+  background-color: #A67C52;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.call-button:hover {
+  background-color: #8D6245;
+}
+
